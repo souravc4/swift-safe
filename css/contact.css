@@ -1,0 +1,169 @@
+body > .container-fluid{
+	background-color: #EAEAEA;
+	font-size: 15px;
+}
+#navbar{
+	
+}  
+.main{
+	position: relative;
+}
+.main.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#top-bg{
+	height: 500px;
+	background: #ffffff url("../images/back.png");
+	background-size: cover;
+
+}
+#middle-bg{
+	height: 580px;
+	width: 94%;
+	background-color: #36ABE7; 
+	position: absolute;
+	top: 450px;
+	left: 3%;
+}
+#quote{
+	width: 50%;
+	padding-top: 68px;
+}
+#quote-text{
+	background-color: #299CC0;
+	height: 440px;
+	width: 80%;
+	margin-left: 75px;
+	padding: 100px 50px 100px 50px;
+	color: white;
+	float: left;
+}
+#contact{
+	width: 50%;
+	float: right;
+	padding-left: 8%;
+}
+#contact h3{
+	text-align: center;
+	line-height: 12px;
+	margin-right: 150px;
+	color: white;
+}
+form{
+	top:10px;
+	width: 75%;
+}
+.form-control{
+	border-radius: 0px;
+	border: 0px;
+}
+.btn.btn-default{
+	width: 23%;
+	padding-top:10px; 
+	padding-bottom:10px;
+	margin-left: 165px;
+	border-radius: 0px;
+	border: 0px;
+	background-color: #DA7900;
+	color: white;		
+}
+.btn-default:hover{
+	background-color: white;
+	color: black;
+}
+#bottom-bg{
+	height: 1100px;
+	background-color: #ffffff;
+}
+#bottom-bg > .row{
+	position: absolute;
+	margin-top: 600px;
+	padding-left: 10%;
+}
+.address{
+	padding-left: 16%;
+	width: 400px;
+}
+#bar{
+	background-color: #36ABE7;
+	width: 50%;
+	padding: 2px;
+	border-radius: 30px;
+}
+#bar p{
+	font-size: 18px;
+	margin-left: 25%;
+	margin-top: 5%;
+	color: white;
+}
+.row a{
+	font-size: 14px;
+}
+#map-bg{
+	height: 500px;
+	background-color: lightgreen;
+}
+.fa-lg{
+	color: #999999;
+}
+.fa-lg:hover{
+	cursor: pointer;
+	color: purple;
+}
+/* footer */
+#footer-bg{
+	height: 405px;
+	background-color: #1A1A1A;
+}
+#footer-bg p,a{
+	color: #999999;
+	margin-top: 18px;
+	margin-bottom: 0px;
+	font-family: Helvetica;
+}
+#logo_mini{
+	width: 30%;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+.footer-list a:link{
+	color: grey !important;
+}
+.footer-list a:visited{
+	color: #999999 !important;
+}
+.footer-list a:hover{
+	color: #1C95D5 !important;
+	text-decoration: none;
+}
+.follow span{
+	color: #999999;
+	font-size: 17px;
+}
+.follow i{
+	color: grey;
+	height: 40px;
+}
+.follow i:hover{
+	color: purple;
+}
+.follow p,br{
+	display: inline-block;
+	width: 6%;
+}
+#footer-hr{
+	border-style: dotted;
+}
+.report p{
+	display: inline-block;
+	width: 26%;
+}
+.foot{
+	margin: 0px;
+	padding-left: 5%;
+}
+.foot p{
+	margin-top: 0px;
+	margin-bottom: 0px
+}

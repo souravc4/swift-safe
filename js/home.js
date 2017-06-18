@@ -1,0 +1,33 @@
+$(document).ready(function(){
+	$("#cust").mouseover(function(){
+    	$("#cust-img").hide();
+	});
+	$("#cust").mouseout(function(){
+    	$("#cust-img").show();
+	});
+});
+$(document).ready(function(){
+	$("#mobild").mouseover(function(){
+    	$("#mobil-img").hide();
+	});
+	$("#mobild").mouseout(function(){
+    	$("#mobil-img").show();
+	});
+});
+$(document).ready(function(){
+	$("#ddte").mouseover(function(){
+    	$("#ddt-img").hide();
+	});
+	$("#ddte").mouseout(function(){
+    	$("#ddt-img").show();
+	});
+});
+$(document).ready(function(){
+	$("#projectr").mouseover(function(){
+    	$("#project-img").hide();
+	});
+	$("#projectr").mouseout(function(){
+    	$("#project-img").show();
+	});
+});
+
